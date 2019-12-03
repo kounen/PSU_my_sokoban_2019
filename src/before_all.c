@@ -5,8 +5,8 @@
 ** Sokoban
 */
 
-#include <my.h>
-#include <check_char.h>
+#include "my.h"
+#include "check_char.h"
 
 __attribute__((constructor)) void before_all(int ac, char **av)
 {
@@ -28,12 +28,13 @@ __attribute__((constructor)) void before_all(int ac, char **av)
         my_printf("Empty file\n");
         exit(84);
     }
-    map = malloc(sb.st_size);
-    read(fd, map, sb.st_size);
+    buffer = malloc((sb.st_size += 1));
+    read(fd, buffer, sb.st_size);
     close(fd);
-    for (int i = 0; map[i]; i++) {
-        if (CHECK_CHAR(map[i]))
+    for (int i = 0; buffer[i]; i++) {
+        if (CHECK_CHAR(buffer[i])) {
             my_printf("Bad character(s) in the map\n");
-        exit(84);
+            exit(84);
+        }
     }
 }

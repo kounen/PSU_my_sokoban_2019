@@ -1,3 +1,10 @@
+##
+## EPITECH PROJECT, 2019
+## Makefile
+## File description:
+## Sokoban
+##
+
 NAME	= my_sokoban
 
 CC	= gcc
@@ -22,12 +29,13 @@ SRCS	= ./lib/binary_nbr.c \
 	  ./main.c \
 	  ./src/before_all.c \
 	  ./src/get_map.c \
+	  ./src/lines_nbr.c \
 	  ./src/usage.c 
 
 OBJS	= $(SRCS:.c=.o)
 
 CFLAGS = -I ./include/
-CFLAGS += -Wall -Wextra
+CFLAGS += -Wall -Wextra -g
 
 LDFLAGS = -lncurses
 

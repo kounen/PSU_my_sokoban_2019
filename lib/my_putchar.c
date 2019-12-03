@@ -5,7 +5,7 @@
 ** my_printf - B1 - Unix System Programming
 */
 
-#include <printf.h>
+#include "printf.h"
 
 void my_putchar(char c)
 {
