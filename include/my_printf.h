@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** printf.h
+** my_printf.h
 ** File description:
 ** Sokoban
 */

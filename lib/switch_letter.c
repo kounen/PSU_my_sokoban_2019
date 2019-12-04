@@ -2,10 +2,10 @@
 ** EPITECH PROJECT, 2019
 ** switch_letter.c
 ** File description:
-** my_printf - B1 - Unix System Programming 
+** my_printf - B1 - Unix System Programming
 */
 
-#include "printf.h"
+#include "my_printf.h"
 
 int switch_letter_one(char *str, int i, va_list list)
 {

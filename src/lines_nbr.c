@@ -7,9 +7,11 @@
 
 #include "my.h"
 
-void get_lines()
+void get_lines(void)
 {
-    for(int i = 0; buffer[i]; i++) {
+    lines_nbr = 0;
+
+    for (int i = 0; buffer[i]; i++) {
         if (buffer[i] == '\n')
             lines_nbr++;
     }

@@ -3,24 +3,14 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/lib/gcc/x86_64-redhat-linux/9/include/"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "/bin/gcc",
+            "intelliSenseMode": "gcc-x64",
             "cStandard": "c11",
-            "cppStandard": "c++20",
-            "intelliSenseMode": "gcc-x64"
-        },
-        {
-            "name": "Linux",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "clang-x64"
+            "cppStandard": "c++20"
         }
     ],
     "version": 4

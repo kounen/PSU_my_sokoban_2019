@@ -28,9 +28,9 @@ SRCS	= ./lib/binary_nbr.c \
 	  ./lib/unit_size.c \
 	  ./main.c \
 	  ./src/before_all.c \
-	  ./src/get_map.c \
+	  ./src/create_map.c \
 	  ./src/lines_nbr.c \
-	  ./src/usage.c 
+	  ./src/usage.c \
 
 OBJS	= $(SRCS:.c=.o)
 

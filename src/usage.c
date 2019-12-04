@@ -7,7 +7,7 @@
 
 #include "my.h"
 
-void usage()
+void usage(void)
 {
     my_printf("USAGE\n");
     my_printf("     ./my_sokoban map\n");

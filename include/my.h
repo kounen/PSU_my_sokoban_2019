@@ -8,21 +8,23 @@
 #ifndef MY_H_
 #define MY_H_
 
-#include "printf.h" //my printf lib
-#include <curses.h> //lib ncurses
-#include <stdlib.h> //malloc, free, exit
-#include <unistd.h> //read, write, close
-#include <fcntl.h> //open
-#include <sys/stat.h> //stat: filesize in bytes (1 byte == 8 bits == 1 octet)
+#include "my_printf.h"
+#include <stddef.h>
+#include <curses.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
 
-char *buffer; //my buffer
-char **map; //MAP en 2D
-int lines_nbr; //nombre de lignes
-struct stat sb; //stat
-int fd; //file_descriptor
+char *buffer;
+char **map;
+int lines_nbr;
+struct stat sb;
+int fd;
 
 void usage();
 void get_lines();
 void create_map_from_buffer();
+void print_map();
 
 #endif /* !MY_H_ */

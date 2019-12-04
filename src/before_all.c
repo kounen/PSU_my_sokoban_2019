@@ -12,7 +12,7 @@ __attribute__((constructor)) void before_all(int ac, char **av)
 {
     if (ac != 2) {
         my_printf("Bad number of argument(s)\n");
-        exit(84); //exit est une fonction de la librairie standard <stdlib.h>
+        exit(84);
     }
     if (ac == 2 && av[1][0] == '-' && av[1][1] == 'h' && av[1][2] == '\0') {
         usage();
@@ -28,8 +28,9 @@ __attribute__((constructor)) void before_all(int ac, char **av)
         my_printf("Empty file\n");
         exit(84);
     }
-    buffer = malloc((sb.st_size += 1));
-    read(fd, buffer, sb.st_size);
+    buffer = malloc(sb.st_size + 1);
+    buffer[sb.st_size] = '\0';
+    read(fd, buffer, sb.st_size + 1);
     close(fd);
     for (int i = 0; buffer[i]; i++) {
         if (CHECK_CHAR(buffer[i])) {

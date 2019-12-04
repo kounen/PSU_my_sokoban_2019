@@ -5,7 +5,7 @@
 ** my_printf - B1 - Unix System Programming
 */
 
-#include "printf.h"
+#include "my_printf.h"
 
 void s_str(char *str)
 {
