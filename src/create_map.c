@@ -16,7 +16,7 @@ void create_map_from_buffer(void)
     map = malloc(sizeof(char *) * lines_nbr);
     for (int i = 0; buffer[i]; i++) {
         if (buffer[i] == '\n') {
-            map[line] = malloc(i - shift);
+            map[line] = malloc(i - shift + 1);
             i = i + 1;
             for (int column = 0; buffer[column + shift] != '\n'; column++) {
                 map[line][column] = buffer[column + shift];

@@ -1,6 +1,6 @@
 /*
 ** EPITECH PROJECT, 2019
-** lines_nbr.c
+** get_lines.c
 ** File description:
 ** Sokoban
 */

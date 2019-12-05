@@ -2,16 +2,14 @@
 ** EPITECH PROJECT, 2019
 ** PSU_my_sokoban_2019
 ** File description:
-** move_player
+** play_game
 */
 
 #include "my.h"
 
-void move_player(void)
+void play_game(int keypress)
 {
-    int touch = getch();
-
-    switch(touch) {
+    switch(keypress) {
         case KEY_DOWN:
             move_down();
             break;
@@ -24,5 +22,10 @@ void move_player(void)
         case KEY_RIGHT:
             move_right();
             break;
+        case ' ':
+            reset_map();
+            break;
     }
+    find_player();
+    find_storage();
 }

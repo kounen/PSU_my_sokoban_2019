@@ -8,6 +8,7 @@
 #include "my.h"
 
 void print_map(void) {
+    clear();
     for (int i = 0; i < lines_nbr; i++) {
         printw(map[i]);
         printw("\n");

@@ -1,8 +1,8 @@
 ##
 ## EPITECH PROJECT, 2019
-## Makefile
+## PSU_my_sokoban_2019
 ## File description:
-## Sokoban
+## Makefile
 ##
 
 NAME	= my_sokoban
@@ -29,8 +29,17 @@ SRCS	= ./lib/binary_nbr.c \
 	  ./main.c \
 	  ./src/before_all.c \
 	  ./src/create_map.c \
-	  ./src/lines_nbr.c \
-	  ./src/usage.c \
+	  ./src/get_lines.c \
+	  ./src/find_player.c \
+	  ./src/find_storage.c \
+	  ./src/move_down.c \
+	  ./src/move_left.c \
+	  ./src/move_right.c \
+	  ./src/move_up.c \
+	  ./src/play_game.c \
+	  ./src/print_map.c \
+	  ./src/reset_map.c \
+	  ./src/usage.c
 
 OBJS	= $(SRCS:.c=.o)
 
