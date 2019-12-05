@@ -18,9 +18,10 @@ int main(void)
     find_player();
     find_storage();
     while (1) {
-        print_map();
         play_game(getch());
-        //win_case();
+        print_map();
+        win_case();
+        lose_case();
     }
     endwin();
     return 0;

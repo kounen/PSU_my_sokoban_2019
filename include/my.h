@@ -40,5 +40,6 @@ void reset_map();
 void find_player();
 void find_storage();
 void win_case();
+void lose_case();
 
 #endif /* !MY_H_ */
