@@ -39,6 +39,7 @@ SRCS	= ./lib/binary_nbr.c \
 	  ./src/play_game.c \
 	  ./src/print_map.c \
 	  ./src/reset_map.c \
+	  ./src/win_case.c \
 	  ./src/usage.c
 
 OBJS	= $(SRCS:.c=.o)

@@ -32,12 +32,13 @@ void play_game();
 void get_lines();
 void create_map_from_buffer();
 void print_map();
-void move_right();
-void move_left();
-void move_up();
-void move_down();
+void move_right(int x, int y);
+void move_left(int x, int y);
+void move_up(int x, int y);
+void move_down(int x, int y);
 void reset_map();
 void find_player();
 void find_storage();
+void win_case();
 
 #endif /* !MY_H_ */

@@ -20,6 +20,7 @@ int main(void)
     while (1) {
         print_map();
         play_game(getch());
+        //win_case();
     }
     endwin();
     return 0;

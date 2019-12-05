@@ -5,7 +5,26 @@
 ** move_right
 */
 
-void move_right(void)
-{
+#include "my.h"
 
+void move_right(int x, int y)
+{
+    switch (map[x][y + 1]) {
+    case ' ':
+    case 'O':
+        map[x][y + 1] = 'P';
+        map[x][y] = ' ';
+        break;
+    case 'X':
+        if (map[x][y + 2] == '#')
+            break;
+        else if (map[x][y + 2] == ' ' || map[x][y + 2] == 'O') {
+            map[x][y + 2] = 'X';
+            map[x][y + 1] = 'P';
+            map[x][y] = ' ';
+        }
+        break;
+    case '#':
+        break;
+    }
 }
