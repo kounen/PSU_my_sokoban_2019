@@ -17,6 +17,7 @@ int main(void)
     create_map_from_buffer();
     find_player();
     find_storage();
+    print_map();
     while (1) {
         play_game(getch());
         print_map();

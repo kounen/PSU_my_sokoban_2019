@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "make program",
             "program": "${workspaceFolder}/my_sokoban",
-            "args": ["map"],
+            "args": ["../map"],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
             "environment": [],

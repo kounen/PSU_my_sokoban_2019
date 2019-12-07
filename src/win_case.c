@@ -11,7 +11,7 @@ void win_case(void)
 {
     int nb = 0;
 
-    if (map[storage_place[nb].x][storage_place[nb].y] == 'X')
+    while (map[storage_place[nb].x][storage_place[nb].y] == 'X')
         nb = nb + 1;
     if (nb == storages_nbr)
         exit(0);
