@@ -22,7 +22,6 @@ int main(void)
         play_game(getch());
         print_map();
         win_case();
-        lose_case();
     }
     endwin();
     return 0;
