@@ -14,6 +14,7 @@ int main(void)
     keypad(stdscr, true);
     cbreak();
     noecho();
+    get_lines();
     create_map_from_buffer();
     find_player();
     find_storage();
