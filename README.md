@@ -22,7 +22,7 @@ map is a file representing the warehouse map, containing '#' for walls, 'P' for
 the player, 'X' for boxes and 'O' for storage locations.<br>
 
 <h3>Option</h3>
-"-h" to display the help page<br>
+"-h" to display the help page.<br>
 
 <h3>Percentage</h3>
 95.8%<br>
