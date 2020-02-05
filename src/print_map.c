@@ -13,10 +13,8 @@ void print_map(void)
 
     clear();
     while (nb < storages_nbr) {
-        if (map[storage_place[nb].x][storage_place[nb].y]\
-        == ' ')
-            map[storage_place[nb].x][storage_place[nb].y]\
-            = 'O';
+        if (map[storage_place[nb].x][storage_place[nb].y] == ' ')
+            map[storage_place[nb].x][storage_place[nb].y] = 'O';
         nb = nb + 1;
     }
     for (int line = 0; line < lines_nbr; line++) {

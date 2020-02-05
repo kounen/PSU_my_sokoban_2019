@@ -11,8 +11,7 @@ void get_lines(void)
 {
     lines_nbr = 0;
 
-    for (int i = 0; buffer[i]; i++) {
+    for (int i = 0; buffer[i]; i++)
         if (buffer[i] == '\n')
             lines_nbr++;
-    }
 }
