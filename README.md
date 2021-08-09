@@ -1,6 +1,6 @@
 # Sokoban
 
-![alt text](https://fr.wikipedia.org/wiki/Sokoban#/media/Fichier:Sokoban_ani.gif)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/4/4b/Sokoban_ani.gif)
 
 Sokoban (warehouse keeper in Japanese) is a type of transport puzzle, in which
 the player pushes boxes or crates around in a warehouse, trying to get them to
