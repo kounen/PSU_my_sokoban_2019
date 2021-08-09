@@ -1,4 +1,4 @@
-# PSU_my_sokoban_2019
+# Sokoban
 
 <h3>Purpose of this project</h3>
 Sokoban (warehouse keeper in Japanese) is a type of transport puzzle, in which
