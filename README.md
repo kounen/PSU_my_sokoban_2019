@@ -23,32 +23,3 @@ the player, 'X' for boxes and 'O' for storage locations.<br>
 
 <h3>Option</h3>
 "-h" to display the help page.<br>
-
-<h3>Percentage</h3>
-95.8%<br>
-
-<h3>Mark</h3>
-16,5/20<br>
-
-<h3>Coding Style</h3>
-<em>Major</em> : 0<br>
-<em>Minor</em> : 1<br>
-<em>Info</em> : 0<br>
-
-<h3>Coverage</h3>
-<em>Branches</em> : 0%<br>
-<em>Lines</em> : 0%<br>
-
-<h3>Tests</h3>
-<strong>01 - usage and input checks</strong><br>
-<em>4/4</em> : 100%<br>
-<strong>02 - basic moves</strong><br>
-<em>4/4</em> : 100%<br>
-<strong>03 - basic collisions and box on targets</strong><br>
-<em>4/4</em> : 100%<br>
-<strong>04 - intermediate moves and collisions</strong><br>
-<em>6/6</em> : 100%<br>
-<strong>05 - intermediate maps tests</strong><br>
-<em>4/4</em> : 100%<br>
-<strong>06 - intermediate winning and losing conditions</strong><br>
-<em>1/2</em> : 50%<br>
